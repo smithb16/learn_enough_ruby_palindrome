@@ -15,7 +15,14 @@ class Smithb16PalindromeTest < Minitest::Test
   end
 
   def test_palindrome_with_punctuation
-    s = "Madam, I'm Adam."
-    assert s.palindrome?
+    assert "Madam, I'm Adam.".palindrome?
+  end
+
+  def test_palindrome_all_integers
+    assert 123321.palindrome?
+  end
+
+  def test_mixed_palindrome
+    assert "1rac7car1".palindrome?
   end
 end
