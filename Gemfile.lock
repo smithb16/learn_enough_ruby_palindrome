@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    smithb16_palindrome (0.2.0)
+    smithb16_palindrome (0.2.1)
 
 GEM
   remote: https://rubygems.org/
