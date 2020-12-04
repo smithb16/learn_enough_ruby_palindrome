@@ -25,4 +25,9 @@ class Smithb16PalindromeTest < Minitest::Test
   def test_mixed_palindrome
     assert "1rac7car1".palindrome?
   end
+
+  def test_empty_string
+    refute "".palindrome?
+    refute "   ".palindrome?
+  end
 end

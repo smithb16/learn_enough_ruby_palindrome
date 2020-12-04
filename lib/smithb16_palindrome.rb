@@ -3,6 +3,7 @@ require "smithb16_palindrome/version"
 module Palindrome
 
   def palindrome?
+    return false if processed_content.empty?
     return processed_content == processed_content.reverse
   end
 
